@@ -1,0 +1,22 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/{everything}",
+            "DownstreamScheme": "http",
+            "SwaggerKey": "ssm",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "192.168.106.2",
+                    "Port": 2220
+                }
+            ],
+            "UpstreamPathTemplate": "/ssm/{everything}",
+            "UpstreamHttpMethod": [
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE"
+            ]
+        }
+    ]
+}

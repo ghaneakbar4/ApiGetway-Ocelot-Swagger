@@ -1,0 +1,20 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/login",
+            "DownstreamScheme": "https",
+            "SwaggerKey": "idp",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "127.0.0.1",
+                    "Port": 7223
+                }
+            ],
+            "UpstreamPathTemplate": "/login",
+            "UpstreamHttpMethod": [
+                "GET"
+               
+            ]
+        }
+    ]
+}

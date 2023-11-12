@@ -1,0 +1,49 @@
+{
+    "SwaggerEndPoints": [
+
+        {
+            "Key": "idp",
+            "TransformByOcelotConfig": true,
+            "Config": [
+                {
+                    "Name": "idp.API",
+                    "Version": "1.0",
+                    "Url": "https://localhost:7223/swagger/v1/swagger.json"
+                }
+            ]
+        },
+        {
+            "Key": "ssm",
+            "TransformByOcelotConfig": false,
+            "Config": [
+                {
+                    "Name": "ssm.API",
+                    "Version": "1.0",
+                    "Url": "http://192.168.106.2:2220/swagger/v1/swagger.json"
+                }
+            ]
+        },
+        {
+            "Key": "cmp",
+            "TransformByOcelotConfig": true,
+            "Config": [
+                {
+                    "Name": "cmp.API",
+                    "Version": "1.0",
+                    "Url": "http://192.168.106.2:2230/swagger/v1/swagger.json"
+                }
+            ]
+        },
+        {
+            "Key": "mail",
+            "TransformByOcelotConfig": true,
+            "Config": [
+                {
+                    "Name": "MailMessages.API",
+                    "Version": "1.0",
+                    "Url": "http://192.168.106.2:2060/swagger/v1/swagger.json"
+                }
+            ]
+        }
+    ]
+}
