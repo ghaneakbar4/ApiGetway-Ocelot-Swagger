@@ -6,7 +6,7 @@
             "SwaggerKey": "cmp",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "192.168.106.2",
+                    "Host": "localhost",
                     "Port": 2230
                 }
             ],
