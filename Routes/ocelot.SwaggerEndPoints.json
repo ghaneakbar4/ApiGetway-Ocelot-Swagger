@@ -19,7 +19,7 @@
                 {
                     "Name": "ssm.API",
                     "Version": "1.0",
-                    "Url": "http://192.168.106.2:2220/swagger/v1/swagger.json"
+                    "Url": "http://localhost:2220/swagger/v1/swagger.json"
                 }
             ]
         },
@@ -30,7 +30,7 @@
                 {
                     "Name": "cmp.API",
                     "Version": "1.0",
-                    "Url": "http://192.168.106.2:2230/swagger/v1/swagger.json"
+                    "Url": "http://localhost:2230/swagger/v1/swagger.json"
                 }
             ]
         },
@@ -41,7 +41,7 @@
                 {
                     "Name": "MailMessages.API",
                     "Version": "1.0",
-                    "Url": "http://192.168.106.2:2060/swagger/v1/swagger.json"
+                    "Url": "http://localhost:2060/swagger/v1/swagger.json"
                 }
             ]
         }
