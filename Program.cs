@@ -76,12 +76,12 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-//app.UseSwaggerForOcelotUI(options =>
-//{
-//    options.PathToSwaggerGenerator = "/swagger/docs";
-//    options.ReConfigureUpstreamSwaggerJson = AlterUpstream.AlterUpstreamSwaggerJson;
+app.UseSwaggerForOcelotUI(options =>
+{
+   options.PathToSwaggerGenerator = "/swagger/docs";
+   options.ReConfigureUpstreamSwaggerJson = AlterUpstream.AlterUpstreamSwaggerJson;
 
-//}).UseOcelot().Wait();
+}).UseOcelot().Wait();
 
 app.MapDefaultControllerRoute();
 
